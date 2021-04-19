@@ -1,0 +1,36 @@
+body {
+	padding: 60px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 16px;
+}
+
+input[type="text"] {
+	color: grey;
+	font-size: 16px;
+	padding: 5px;
+	width: 100%;
+}
+
+.card-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	align-content: center;
+	border: 1px solid grey;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 10px;
+	width: 250px;
+}
+
+.card p {
+	padding: 5px;
+	text-align: center;
+}
+
+.card img {
+	width: 250px;
+	max-height: 250px;
+}
