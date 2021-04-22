@@ -1,7 +1,7 @@
 import React from 'react';
 
 type TAddCategory = {
-    setCategories: React.Dispatch<React.SetStateAction<string[]>>;
+    setCategories: React.Dispatch<React.SetStateAction<string[]>> | any;
 }
 
 export const AddCategory = ({ setCategories }: TAddCategory): JSX.Element => {
